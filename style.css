@@ -1,0 +1,63 @@
+body {
+  background-color: #F8E7F6;
+  font-family: "Noto Serif", serif;
+  color: #DD88CF;
+  font-size: 30px;
+}
+
+h1, h2 {
+  font-size: 40px;
+  color: #4B164C;
+  font-family: "Leckerli One", serif;
+}
+
+a {
+  color: #FFF6DA;
+  text-decoration: none;
+  font-size: 60px;
+}
+a:hover {
+  background-color: #7E8EF1;
+}
+.card {
+ background-color: #9B7EBD ;
+ border: 5px #6439FF;
+ border-radius: 5px;
+ box-shadow: 2px 2px 3px #C68FE6;
+}
+
+.container {
+  text-align: center;
+}
+
+#unicorn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%
+}
+
+.button {
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #FFD0EC;
+  scale: 1.5;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
